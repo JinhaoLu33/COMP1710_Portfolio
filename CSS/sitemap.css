@@ -1,0 +1,98 @@
+/*using tables to format the sitemap*/
+
+#title {
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 1%;
+    padding-top: 4%;
+    padding-left: 10%;
+}
+
+/*1st decoration line*/
+#hr1 {
+    margin-left: 10%;
+    width: 80%;
+    color: #777777;
+}
+
+/*last decoration line*/
+/*empty space at the top of the line*/
+#hr2 {
+    margin-left: 10%;
+    width: 80%;
+    color: #777777;
+    margin-top: 5%;
+}
+
+/*subtitles shown by caption*/
+caption {
+    font-weight: bold;
+    font-size: 25px;
+    color: Black;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    text-align: left;
+}
+
+caption a {
+    color: black;
+    text-decoration: none;
+}
+
+caption a:hover {
+    text-decoration: underline;
+}
+
+/*coherent table formatting for all parts of the sitemap*/
+table {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: transparent;
+    text-align: left;
+    table-layout: fixed;
+}
+
+/*sub-subtitles */
+th {
+    color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    border: transparent;
+}
+
+th a {
+    color: black;
+    text-decoration: none;
+}
+
+th a:hover {
+    text-decoration: underline;
+}
+
+/*create paddings for the table cells*/
+td {
+    color: #777777;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    border: transparent;
+}
+
+td a {
+    color: #777777;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/*empty space at the bottom of the page*/
+body {
+    padding-bottom: 10%;
+}
+

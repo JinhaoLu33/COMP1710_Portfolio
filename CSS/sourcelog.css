@@ -1,0 +1,87 @@
+/*formatting fot sourcelog*/
+
+
+
+h1 {
+    text-align: center;
+    color: #777777;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+caption {
+    font-style: italic;
+    font-size: 13px;
+    color: #777777;
+}
+
+/*table corners with radius */
+table {
+    background: #777777;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+    text-align: left;
+}
+
+th {
+    background: #777777;
+    color: white;
+    padding: 10px;
+    margin: 10%;
+}
+
+td {
+    background: white;
+    color: #777777;
+    padding: 10px;
+}
+
+td a {
+    color: #777777;
+    text-decoration: underline;
+}
+
+td a:hover {
+    color: black;
+}
+
+/*bottom left/right corner with radius*/
+
+td.left {
+    background: white;
+    color: #777777;
+    border: transparent;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+td.right {
+    background: white;
+    color: #777777;
+    border: transparent;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*top left/right corner with radius*/
+
+td.lt {
+    background: white;
+    color: #777777;
+    border: transparent;
+    padding: 10px;
+    border-top-left-radius: 10px;
+}
+
+td.rt {
+    background: white;
+    color: #777777;
+    border: transparent;
+    padding: 10px;
+    border-top-right-radius: 10px;
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+/*index page formatting*/
+
+body {
+    background-color: #777777;
+}
+
+/*formatting for all the titles*/
+
+h1.me {
+    color: white;
+    padding-left: 15%;
+    padding-top: 15%;
+    font-size: 350%;
+}
+
+/*formatting for all the texts*/
+
+p.p1 {
+    color: white;
+    font-weight: normal;
+    font-family: 'PT Serif', Times New Roman, serif;
+    font-size: 150%;
+    padding-left: 15%;
+    padding-right: 20%;
+    padding-bottom: 5vh;
+}
+
+/*the 1st div */
+#c {
+    margin-bottom: 30%;
+}
+
+/*contact title*/
+#con {
+    float: left;
+    width: 50%;
+}
+
+ul.con {
+    height: auto;
+    margin-left: 30%;
+    padding-left: 0;
+}
+
+li.con {
+    color: white;
+    font-family: Century Gothic, Helvetica, Geneva, sans serif;
+    font-size: 150%;
+    font-weight: bold;
+    list-style-type: none;
+    padding-top: 10%;
+}
+
+/*contact info*/
+#con2 {
+    float: right;
+    width: 50%;
+}
+
+ul.con2 {
+    height: auto;
+    margin-right: 30%;
+    padding-left: 0;
+}
+
+li.con2 {
+    color: white;
+    font-family: Century Gothic, Helvetica, Geneva, sans serif;
+    font-size: 150%;
+    font-weight: lighter;
+    list-style-type: none;
+    padding-top: 10%;
+}
+
+/*format for download portfolio and cv*/
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+/*portfolio and cv pdf viewer*/
+
+object {
+    padding-left: 15%;
+    width: 70vw;
+    height: 70vh;
+    background: #777777;
+    object-fit: fill;
+}
+
+/*social media icons*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+

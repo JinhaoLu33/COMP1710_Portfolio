@@ -1,0 +1,80 @@
+/*formatting for navigation bar*/
+/*all the html files will be linked to the same navbar css file*/
+
+/*navigation bar division*/
+/*format the menu with #777777 background color and century gothic font*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.startPage {
+    height: 15vh;
+}
+
+nav {
+    font-family: Helvetica, Century Gothic, Geneva, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background: #777777;
+    opacity: 90%;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/*unsorted list*/
+#bar ul {
+    font-family: Helvetica, Century Gothic, Geneva, sans-serif;
+    height: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+/*menu on the right*/
+#bar li {
+    display: inline;
+    padding: 2%;
+    height: auto;
+}
+
+
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 105%;
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    margin-left: 3vw;
+}
+
+.flying-logo a {
+    padding: 0;
+    margin: 0;
+}
+
+/*changing color when mouse hover*/
+nav a:hover {
+    color: antiquewhite;
+}
+
+.flying-logo {
+    font-family: Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+

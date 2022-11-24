@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*index page formatting*/
+
+body {
+    height: 100vh;
+    background-image: url("../Images/brunswick.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: change 30s infinite ease-in-out;
+}
+
+
+/*formatting for all the titles*/
+
+h1.me {
+    color: white;
+    padding-left: 15vw;
+    padding-top: 15%;
+    padding-bottom: 3vh;
+    font-size: 350%;
+}
+
+h1.portfolio {
+    color: white;
+    padding-left: 15vw;
+    padding-top: 15vh;
+    padding-bottom: 3vh;
+    font-size: 350%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: antiquewhite;
+}
+
+/*formatting for all the texts*/
+
+p.p1 {
+    color: white;
+    font-weight: normal;
+    font-family: 'PT Serif', Times New Roman, serif;
+    font-size: 150%;
+    padding: 5vh 20% 5vh 15%;
+}
+
+#con {
+    float: left;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    width: 35vw;
+}
+
+h3.con {
+    color: white;
+    padding-bottom: 2vh;
+    font-size: 200%;
+}
+
+#con2 {
+    margin-top: 5vh;
+    float: right;
+    margin-right: 15vw;
+}
+
+h3.con2 {
+    color: white;
+    padding-bottom: 2vh;
+    font-size: 200%;
+    font-weight: initial;
+}
+
+
+/*format for download portfolio and cv*/
+/*portfolio and cv pdf viewer*/
+
+object {
+    margin-left: 15vw;
+    margin-bottom: 0vw;
+    width: 70vw;
+    height: 70vh;
+    background: transparent;
+    object-fit: fill;
+}
+
+/*social media icons*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    z-index: 99999;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #777777;
+    color: white;
+}
+
+.normal {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #777777;
+}
+
+.tagembed-container {
+    margin-left: 15vw;
+    padding: 0;
+    height: 100vh;
+}
+
+
+
+@keyframes change {
+    0% {
+        background-image: url("../Images/brunswick.png");
+    }
+    25% {
+        background-image: url("../Images/sale.jpg");
+    }
+    50% {
+        background-image: url("../Images/dencity.jpg");
+
+    }
+    75% {
+        background-image: url("../Images/tanglang.jpg");
+    }
+    100% {
+        background-image: url("../Images/brunswick.png");
+    }
+}
+
+
+
+
+
+

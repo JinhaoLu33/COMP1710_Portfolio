@@ -1,0 +1,93 @@
+/*formatting for navigation bar for the index page*/
+
+/*navigation bar*/
+/*format the menu with #777777 background color and Helvetica font*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    background: transparent;
+    font-family:  Helvetica, Century Gothic,Geneva, sans serif;
+}
+
+/*all the titles on the same line*/
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+/*unsorted list*/
+#bar ul {
+    height: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+/*menu on the right*/
+#bar li {
+    display: inline;
+    padding: 2%;
+    height: auto;
+}
+
+/*add spacing between titles*/
+nav a {
+    color: white;
+    font-weight: bold;
+    font-size: 105%;
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    margin-left: 3vw;
+    text-shadow: 0.1em 0.1em 0.2em #777777;
+
+}
+
+/*put the main logo in the center*/
+.logo {
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    /*make sure the center of the text in the center of the screen*/
+    transform: translate(-50%, -50%) scale(5);
+    font-family:  Helvetica, Century Gothic,Geneva, sans serif;
+    /*animation: changeT 30s infinite;*/
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*changing color when mouse hover*/
+nav a:hover {
+    color: antiquewhite;
+}
+.logo a:hover{
+    color:antiquewhite;
+}
+
+.flying-logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em #777777;
+    text-decoration: none;
+}
+
+.flying-logo a {
+    padding: 0;
+    margin: 0;
+}
+
+.startPage {
+    height: 100vh;
+}
+
+
+
+

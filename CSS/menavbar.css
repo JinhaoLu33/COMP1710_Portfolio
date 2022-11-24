@@ -1,0 +1,54 @@
+#bar {
+    float: right;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    width: 100%;
+    height: 35px;
+    font-size: 50%;
+    background-color: white;
+    text-align: right;
+    font-weight: normal;
+    font-family: Century Gothic, Helvetica, Geneva, sans serif;
+    border-bottom-style: inset;
+    border-bottom-color: #777777;
+    border-bottom-width: thin;
+}
+
+#bar ul {
+    height: auto;
+    margin-left: 0;
+    padding: 0;
+}
+
+#bar li {
+    display: inline;
+    padding: 2%;
+    height: auto;
+}
+
+#bar li.name {
+    line-height: 100%;
+    float: left;
+    font-size: large;
+    font-weight: bold;
+    color: #777777;
+    display: inline;
+    padding-top: 0;
+}
+
+#bar a {
+    text-decoration: none;
+    color:#777777;
+    padding: 8px 8px 8px 8px;
+}
+
+
+#bar a:hover {
+    color: black;
+}
+
+
+
+

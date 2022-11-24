@@ -1,0 +1,114 @@
+/*general formatting for all the projects pages*/
+/*formatting for the allprojects page for now*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.title{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*using table to format the images*/
+
+.gallery {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*add some space at the bottom of the page*/
+
+body {
+    margin-bottom: 10vh;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 80vw;
+}
+
+h2{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+h3{
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: initial;
+    text-transform: uppercase;
+}
+
+h4{
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 0.5vh;
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'PT Serif', Times New Roman, serif;
+    padding: 0vh 10vw;
+}
+
+.dis{
+    height: 100vh;
+}
+
+.imageMid{
+    width: 80vw;
+    height: 100%;
+    margin-left: 10%;
+}
+
+iframe{
+    margin-left: 10vw;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
